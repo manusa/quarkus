@@ -21,7 +21,7 @@ jobs:
     env:
       MAVEN_OPTS: -Xmx6g -XX:MaxMetaspaceSize=2g -Dorg.slf4j.simpleLogger.log.eu.maveniverse=trace
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v6.0.3
         with:
           ref: main
       - name: Get SHA
