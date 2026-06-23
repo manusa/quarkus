@@ -259,7 +259,7 @@ jobs:
           java-version: 21
       - name: Setup GraalVM
         id: setup-graalvm
-        uses: graalvm/setup-graalvm@60c26726de13f8b90771df4bc1641a52a3159994 # v1.5.2
+        uses: graalvm/setup-graalvm@329c42c5f4c343bceb505f0b28cc8499bc2bf174 # v1.5.4
         with:
           java-version: ${{ inputs.NATIVE_COMPILER_VERSION }}
           distribution: ${{ inputs.NATIVE_COMPILER }}
@@ -331,7 +331,7 @@ jobs:
           java-version: 17
       - name: Setup GraalVM
         id: setup-graalvm
-        uses: graalvm/setup-graalvm@60c26726de13f8b90771df4bc1641a52a3159994 # v1.5.2
+        uses: graalvm/setup-graalvm@329c42c5f4c343bceb505f0b28cc8499bc2bf174 # v1.5.4
         with:
           java-version: ${{ inputs.NATIVE_COMPILER_VERSION }}
           distribution: ${{ inputs.NATIVE_COMPILER }}
